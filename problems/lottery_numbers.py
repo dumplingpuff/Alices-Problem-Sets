@@ -1,5 +1,7 @@
 from random import choice
 
+# TEST
+
 def get_winning_combo(possibilities):
     """rondomly select two items from possibilities list and return winning_combo """
     winning_combo=[]
@@ -9,7 +11,7 @@ def get_winning_combo(possibilities):
         if pulled_item not in winning_combo:
             winning_combo.append(pulled_item)
 
-    return winning_combo
+    
 
 
 def get_random_combo(possibilities):
